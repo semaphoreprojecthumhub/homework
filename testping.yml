@@ -3,5 +3,4 @@
   become: true
   tasks:
     - name: Ping Host
-      ansible.builtin.package:
-        name: ping
+      ansible.builtin.ping:
